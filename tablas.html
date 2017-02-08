@@ -2,13 +2,20 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
+        <!--Estilo interno-->
+        <style>
+            tr{background-color: blue;}
+        </style>
+        <!--Estilo externo por medio de una hoja de estilos-->
+        <link href="estilos.css"type="text/css"rel=stylesheet>
         <title>Tablas</title>
     </head>
     <body>
         <h1>Ejemplo de tablas en HTML</h1>
         <table>
             <thead>
-                <tr>
+                <!--Estilo en linea-->
+                <tr style="background-color: green;">
                     <th>Materia</th>
                     <th>Creditos</th>
                 </tr>              
@@ -73,7 +80,8 @@
                 </tr>
             </tbody>
             <tfoot>
-                <tr>
+                <!--Estilo en seleccion por clase-->
+                <tr class=verde>
                     <td>UASLP</td>
                     <td>03/02/2017</td>
                 </tr>              
