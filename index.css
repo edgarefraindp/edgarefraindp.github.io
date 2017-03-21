@@ -10,6 +10,14 @@ body{
     display: inline-block;
     text-align: center;
 }
+.UltimasEntradas{
+    display: inline-block;
+    border: 1px solid black; 
+    margin: 5px;
+    width: 31%;
+    left: 0px;
+    top: 0px
+}
 #textBanner{
     background: transparent;
     color:whitesmoke;
@@ -34,4 +42,10 @@ body{
     width: 100%;
     right: 0px;
     z-index: 0 !important
+}
+#imgUltimasEntradas{
+    margin: 0px;
+    border: 0px;
+    height: 100px;
+    width: 100%;
 }
